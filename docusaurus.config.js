@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Echosec',
+  title: 'Echosec Material',
   tagline: 'Echosec Is good =)',
   favicon: 'img/logo.svg',
 
@@ -59,15 +59,22 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    (
+      {
+          colorMode: {
+         defaultMode: 'dark',
+         disableSwitch: true,
+         respectPrefersColorScheme: false,
+       },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'EchoSec',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Walter WHite =0',
           src: 'img/logo.svg',
         },
+        
         items: [
           {
             type: 'docSidebar',
@@ -76,7 +83,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Ech0S3c',
             label: 'GitHub',
             position: 'right',
           },
@@ -99,7 +106,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://discord.gg/yeGStJzP',
               },
             ],
           },
@@ -108,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Ech0S3c',
               },
             ],
           },
