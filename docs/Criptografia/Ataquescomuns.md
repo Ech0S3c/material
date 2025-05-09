@@ -54,7 +54,7 @@ Esse script tenta todas as 25 possibilidades de deslocamento da cifra de César.
 
 _teste o código no seu computador._
 
-# 2. Ataque de Texto Conhecido
+## 2. Ataque de Texto Conhecido
 
 Agora as coisas ficam mais sofisticadas. Suponha que o atacante tenha acesso a pares de texto claro e texto cifrado. Ele pode comparar padrões e tentar inferir a chave, o vetor de inicialização ou até falhas estruturais no algoritmo usado.
 
@@ -160,7 +160,7 @@ console.log("Cifra msg2:", ct2.toString('hex'));
 No final Ficou diferente né? e no começo ficou igual, tá aí o BO, já imaginou fosse uma informação sensível?
 
 
-# 3. Ataques por Dicionário
+## 3. Ataques por Dicionário
 
 "Se você acha que a sua senha é segura, experimente deixá-la num TXT no desktop."
 
@@ -286,7 +286,7 @@ Elas aumentam o custo computacional por tentativa, tornando o ataque inviável e
 Um ataque por dicionário não é bonito. Não exige matemática avançada. Não requer conhecimento profundo de criptografia. Mas é efetivo porque ataca o elo mais fraco do sistema: o usuário tava com preguiça de pensar em uma senha decente.
 
 
-# 4. Ferramentas
+## 4. Ferramentas
 
 Você achou os exemplos em JavaScript legais? Existem ferramentas que fazem isso em escala profissional:
 
