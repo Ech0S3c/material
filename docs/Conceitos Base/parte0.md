@@ -1,6 +1,6 @@
 ---
-title: Introdução
-sidebar_position: 2
+title: Fundamentos de Cybersecurity
+sidebar_position: 1
 ---
 
 import Admonition from '@theme/Admonition';
@@ -118,4 +118,15 @@ O CERT.br é um Grupo de Resposta a Incidentes de Segurança (CSIRT) de Responsa
   <br />
 
   Se quiser ir além: pense em como **cada pilar poderia ser violado** nessas situações!
+</Admonition>
+
+<Admonition type="tip" title="Exercício 1 — Aplicação ">
+Aproveitando que não demonstrei muitos tipos de criptografia Assimétricas, recomendo que procurem por outras para aumentar o repertório de vocês, não se esqueçam de checar se elas estão obsoletas ou não.
+
+Outra coisa, tentem responder essas perguntas:
+
+- Como evitar ataques de intermediário durante a troca de chaves?
+
+- Como escolher o tamanho da chave e algoritmo assimétrico ideal sem prejudicar o desempenho?
+
 </Admonition>
