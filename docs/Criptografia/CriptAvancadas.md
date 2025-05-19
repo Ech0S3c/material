@@ -39,7 +39,7 @@ A criptografia homomórfica é uma técnica que permite realizar operações mat
 
 Por exemplo, suponha que uma empresa envie dados super sensíveis a um provedor de nuvem para processamento. Com a criptografia tradicional, seria necessário descriptografar os dados para operá-los, expondo-os ao risco de vazamento. Com a homomórfica, é possível calcular diretamente sobre os dados cifrados, e depois só o cliente final pode decifrar o resultado. Isso dá um Up absurdo em questões da privacidade, pense só, só você tem acesso aos seus dados, nem mesmo seu armazenador teria.
 
-<p style={{textAlign: 'center'}}> Diagrama  Hash </p>
+<p style={{textAlign: 'center'}}> Diagramas homomórfica </p>
 
 <div style={{textAlign: 'center'}}>
     <img src="../img/criptografiaHomomorfica.jpg" />

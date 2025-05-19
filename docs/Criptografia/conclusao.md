@@ -32,7 +32,7 @@ Boa sorte nos estudos!
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
-
+link: https://youtu.be/CcU5Kc_FN_4
 <iframe
   width="100%"
   height="400"
@@ -42,7 +42,7 @@ Boa sorte nos estudos!
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
-
+link: https://www.youtube.com/watch?v=HCHqtpipwu4
 ### Cursos
 
 Curso de Stanford Sobre criptografia
