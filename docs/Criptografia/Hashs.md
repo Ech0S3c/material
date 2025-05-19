@@ -18,7 +18,7 @@ _Se a entrada muda, mesmo que em um único caractere, o hash resultante será co
 <p style={{textAlign: 'center'}}> Diagrama  Hash </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../img/hashh.png" />
+    <img src="../../img/hashh.png" />
 </div>
 <p></p>
 
@@ -164,7 +164,7 @@ Os usuários mineram a rede, registrando as transações e gerando um hash segur
 <p style={{textAlign: 'center'}}> Diagrama  Hash </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../img/diagramablockchain.png" />
+    <img src="../../img/diagramablockchain.png" />
 </div>
 <p></p>
 
