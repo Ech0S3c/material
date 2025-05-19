@@ -18,7 +18,7 @@ _Se a entrada muda, mesmo que em um único caractere, o hash resultante será co
 <p style={{textAlign: 'center'}}> Diagrama  Hash </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../img/hashs.png" />
+    <img src="../img/hashh.png" />
 </div>
 <p></p>
 
