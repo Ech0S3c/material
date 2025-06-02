@@ -147,7 +147,7 @@ O modem é um dispositivo eletrônico que modula um sinal digital em uma onda an
 <p style={{textAlign: 'center'}}> Modem </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img//modem.jpg" />
+    <img src="../../../img/modem.jpg" />
 </div>
 <p></p>
 
