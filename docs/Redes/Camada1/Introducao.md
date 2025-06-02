@@ -76,7 +76,7 @@ Presente em controles remotos, impressoras sem fio antigas e alguns sensores. Cu
 <p style={{textAlign: 'center'}}> Camada Física  </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/camada-fisica.png" />
+    <img src="../../static/img/camada-fisica.png" />
 </div>
 <p></p>
 

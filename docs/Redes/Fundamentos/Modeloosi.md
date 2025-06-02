@@ -90,7 +90,7 @@ Características:
 <p style={{textAlign: 'center'}}> Tipos de redes </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/tiposredes.jpg" />
+    <img src="../../static/img/tiposredes.jpg" />
 </div>
 <p></p>
 - LAN: Rede local (empresa, escola)  

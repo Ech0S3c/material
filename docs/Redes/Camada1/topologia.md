@@ -12,7 +12,7 @@ Uma compreensão sólida das topologias é essencial para qualquer profissional 
 <p style={{textAlign: 'center'}}> Topologia de rede </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/topologiarede2.jpg" />
+    <img src="../../static/img/topologiarede2.jpg" />
 </div>
 <p></p>
 
@@ -33,7 +33,7 @@ Por exemplo, em uma rede com dispositivos ligados fisicamente a um switch (topol
 <p style={{textAlign: 'center'}}>Barramento  </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/barramento.png" width = "600" height = "400" />
+    <img src="../../static/img/barramento.png" width = "600" height = "400" />
 </div>
 <p></p>
 
@@ -64,7 +64,7 @@ Um cabo único conecta todos os dispositivos. Os dados trafegam em ambas as dire
 <p style={{textAlign: 'center'}}>Estrela  </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/estrela.jpg" />
+    <img src="../../static/img/estrela.jpg" />
 </div>
 <p></p>
 
@@ -93,7 +93,7 @@ Todos os dispositivos são conectados a um ponto central, como um switch ou hub.
 <p style={{textAlign: 'center'}}>Ring </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/anel.png" width = "400" height = "300" />
+    <img src="../../static/img/anel.png" width = "400" height = "300" />
 </div>
 <p></p>
 Cada dispositivo é conectado a outros dois, formando um círculo. Os dados circulam em um sentido (anel simples) ou em ambos (anel duplo).Um token (sinal especial) circula pela rede e controla o direito de transmitir.(isso aqui é uma brisa que tu pode entender melhor [aqui](https://www.lenovo.com/br/pt/glossary/what-is-ring-topology/)). **Protocolos históricos:** Token Ring (IEEE 802.5), FDDI (Fiber Distributed Data Interface)
@@ -118,7 +118,7 @@ Cada dispositivo é conectado a outros dois, formando um círculo. Os dados circ
 <p style={{textAlign: 'center'}}>Malha </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/malha.png" />
+    <img src="../../static/img/malha.png" />
 </div>
 <p></p>
 
@@ -150,7 +150,7 @@ Cada dispositivo pode estar conectado a vários ou todos os outros nós.Existem 
 <p style={{textAlign: 'center'}}>Hierárquica </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/arvore.jpg"width = "500" height = "400" />
+    <img src="../../static/img/arvore.jpg"width = "500" height = "400" />
 </div>
 <p></p>
 
@@ -177,7 +177,7 @@ Combinação de várias topologias em estrela conectadas entre si de forma hier�
 <p style={{textAlign: 'center'}}>Topologia rede Resumo  </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/topologiarede.png" />
+    <img src="../../static/img/topologiarede.png" />
 </div>
 <p></p>
 
