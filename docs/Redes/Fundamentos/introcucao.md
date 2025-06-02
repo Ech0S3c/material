@@ -147,7 +147,7 @@ O modem é um dispositivo eletrônico que modula um sinal digital em uma onda an
 <p style={{textAlign: 'center'}}> Modem </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../static/img/modem.jpg" />
+    <img src="../../img//modem.jpg" />
 </div>
 <p></p>
 
@@ -165,7 +165,7 @@ A principal função dos sistemas finais é hospedar programas de aplicação, o
 <p style={{textAlign: 'center'}}> Redes de redes né</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../static/img/internet.png" />
+    <img src="../../img/internet.png" />
 </div>
 <p></p>
 
