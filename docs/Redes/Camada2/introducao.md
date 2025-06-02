@@ -1,6 +1,6 @@
 ---
 title: Introdução
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Camada 2 - Enlace
@@ -39,7 +39,7 @@ A Camada de Enlace é dividida em duas subcamadas
 <p style={{textAlign: 'center'}}>Enlace  </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/enlace.jpg" width = "400" height = "300" />
+    <img src="../../../static/img/enlace.jpg" width = "400" height = "300" />
 </div>
 <p></p>
 
@@ -71,7 +71,7 @@ MAC (Media Access Control) Address É um identificador físico e único atribuí
 <p style={{textAlign: 'center'}}>MAC adress  </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/macad.jpeg" width = "400" height = "300" />
+    <img src="../../../static/img/macad.jpeg" width = "400" height = "300" />
 </div>
 <p></p>
 

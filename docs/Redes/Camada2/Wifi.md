@@ -25,7 +25,7 @@ Essas frequências são divididas em canais, e os dispositivos devem estar sinto
 <p style={{textAlign: 'center'}}>Ring </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/diagramawifi.png" width = "500" height = "300" />
+    <img src="../../../static/img/diagramawifi.png" width = "500" height = "300" />
 </div>
 <p></p> 
 
@@ -56,10 +56,10 @@ A camada física do Wi-Fi define como os bits são codificados em sinais de rád
 
 ### 4.2 Padrões 802.11
 
-<p style={{textAlign: 'center'}}>Ring </p>
+<p style={{textAlign: 'center'}}>Padrões </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/wifigen.avif" width = "500" height = "300" />
+    <img src="../../../static/img/wifigen.avif" width = "500" height = "300" />
 </div>
 <p></p>
 
