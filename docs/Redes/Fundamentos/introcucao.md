@@ -24,7 +24,7 @@ _Quando é enviada uma Mensagem, ou seja, o pedido ou informação que deve ser 
 <p style={{textAlign: 'center'}}> Diagrama</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/mensagemEntidade.png" />
+    <img src="../../../img/mensagemEntidade.png" />
 </div>
 <p></p>
 
@@ -53,7 +53,7 @@ A aplicação espera confiabilidade, a infraestrutura entrega melhor esforço.
 <p style={{textAlign: 'center'}}> Redes de redes né</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/internet.png" />
+    <img src="../../../img/internet.png" />
 </div>
 <p></p>
 
@@ -73,7 +73,7 @@ O mesmo princípio vale para redes de computadores: é fundamental que as entida
 <p style={{textAlign: 'center'}}> Protocolo Humano</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/protocolohumano.png" />
+    <img src="../../../img/protocolohumano.png" />
 </div>
 <p></p>
 
@@ -100,7 +100,7 @@ O hub é um equipamento bem antigo, sendo um dos primeiros a serem usados pelas 
 <p style={{textAlign: 'center'}}> HUB </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/hub.jpg" />
+    <img src="../../../img/hub.jpg" />
 </div>
 <p></p>
 
@@ -115,7 +115,7 @@ O processo é realizado decodificando o cabeçalho do pacote e localizando as in
 <p style={{textAlign: 'center'}}> Switch </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/switch.jpg" />
+    <img src="../../../img/switch.jpg" />
 </div>
 <p></p>
 
@@ -131,7 +131,7 @@ O roteador é um equipamento que faz o papel de um intermediador, possibilitando
 <p style={{textAlign: 'center'}}> Roteador </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/roteador.jpeg" />
+    <img src="../../../img/roteador.jpeg" />
 </div>
 <p></p>
 
