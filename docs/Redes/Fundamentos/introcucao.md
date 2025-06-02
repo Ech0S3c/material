@@ -165,7 +165,7 @@ A principal função dos sistemas finais é hospedar programas de aplicação, o
 <p style={{textAlign: 'center'}}> Redes de redes né</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/internet.png" />
+    <img src="../../../img/internet.png" />
 </div>
 <p></p>
 
