@@ -25,7 +25,7 @@ Essas frequências são divididas em canais, e os dispositivos devem estar sinto
 <p style={{textAlign: 'center'}}>Ring </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/diagramawifi.png" width = "500" height = "300" />
+    <img src="/static/img/diagramawifi.png" width = "500" height = "300" />
 </div>
 <p></p> 
 
