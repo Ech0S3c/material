@@ -25,7 +25,7 @@ Além disso, como os avanços na inteligência artificial (IA) e na computação
 <p style={{textAlign: 'center'}}> Diagrama Criptografia Simétrica</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../../static/img/criptografiaassimetrica.png" />
+    <img src="../../../img/criptografiaassimetrica.png" />
 </div>
 <p></p>
 
