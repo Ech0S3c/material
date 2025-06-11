@@ -1,0 +1,28 @@
+{
+  "id": "Criptografia/Ataquescomuns",
+  "title": "Ataques Comuns",
+  "description": "É aquilo né você pode ter escolhido o algoritmo certo, configurado as chaves direito, seguido todas as boas práticas e mesmo assim... boom. Alguém que sabe o que está fazendo quebrou sua segurança. Por quê? Porque criptografia não existe no vácuo. Ela depende de implementações, contextos, usuários, e — surpresa — todos esses fatores são atacáveis.",
+  "source": "@site/docs/Criptografia/Ataquescomuns.md",
+  "sourceDirName": "Criptografia",
+  "slug": "/Criptografia/Ataquescomuns",
+  "permalink": "/material/Criptografia/Ataquescomuns",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/Ataquescomuns.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Ataques Comuns",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Criptografia Assimetrica",
+    "permalink": "/material/Criptografia/CripAssimetrica"
+  },
+  "next": {
+    "title": "Hashs",
+    "permalink": "/material/Criptografia/Hashs"
+  }
+}

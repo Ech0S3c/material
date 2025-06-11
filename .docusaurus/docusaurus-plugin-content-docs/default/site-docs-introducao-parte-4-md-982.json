@@ -1,0 +1,28 @@
+{
+  "id": "Introdução/parte4",
+  "title": "Conceitos de cybersecurity",
+  "description": "Segurança da Informação vs. Segurança Digital vs. Segurança Cibernética",
+  "source": "@site/docs/Introdução/parte4.md",
+  "sourceDirName": "Introdução",
+  "slug": "/Introdução/parte4",
+  "permalink": "/material/Introdução/parte4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introdução/parte4.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Conceitos de cybersecurity",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compreendendo Ataques e CIR",
+    "permalink": "/material/Introdução/parte3"
+  },
+  "next": {
+    "title": "Segurança Pessoal",
+    "permalink": "/material/Introdução/parte5"
+  }
+}

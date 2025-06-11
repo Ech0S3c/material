@@ -1,0 +1,273 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/material/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/material/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "Conceitos Base/index",
+              "path": "/material/Conceitos Base/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Conceitos Base/parte0",
+              "path": "/material/Conceitos Base/parte0",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Conceitos Base/parte2",
+              "path": "/material/Conceitos Base/parte2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Conceitos Base/parte3",
+              "path": "/material/Conceitos Base/parte3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Conceitos Base/parte4",
+              "path": "/material/Conceitos Base/parte4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosAssimetricos/ECC",
+              "path": "/material/Criptografia/AlgoritmosAssimetricos/ECC",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosAssimetricos/index",
+              "path": "/material/Criptografia/AlgoritmosAssimetricos/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosAssimetricos/RSA",
+              "path": "/material/Criptografia/AlgoritmosAssimetricos/RSA",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosHash/Algoritmoscomuns",
+              "path": "/material/Criptografia/AlgoritmosHash/Algoritmoscomuns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosHash/hmaceJWT",
+              "path": "/material/Criptografia/AlgoritmosHash/hmaceJWT",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosHash/index",
+              "path": "/material/Criptografia/AlgoritmosHash/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosHash/SHA",
+              "path": "/material/Criptografia/AlgoritmosHash/SHA",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosSimetricos/AES",
+              "path": "/material/Criptografia/AlgoritmosSimetricos/AES",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosSimetricos/cifras",
+              "path": "/material/Criptografia/AlgoritmosSimetricos/cifras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/AlgoritmosSimetricos/index",
+              "path": "/material/Criptografia/AlgoritmosSimetricos/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/conclusao",
+              "path": "/material/Criptografia/conclusao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Fundamentos/Ataquescomuns",
+              "path": "/material/Criptografia/Fundamentos/Ataquescomuns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Fundamentos/CripAssimetrica",
+              "path": "/material/Criptografia/Fundamentos/CripAssimetrica",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Fundamentos/CripSimetrica",
+              "path": "/material/Criptografia/Fundamentos/CripSimetrica",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Fundamentos/CriptAvancadas",
+              "path": "/material/Criptografia/Fundamentos/CriptAvancadas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Fundamentos/Fundamentos",
+              "path": "/material/Criptografia/Fundamentos/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Fundamentos/Hashs",
+              "path": "/material/Criptografia/Fundamentos/Hashs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Hardware/ataquesLaretais",
+              "path": "/material/Criptografia/Hardware/ataquesLaretais",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Hardware/HSM",
+              "path": "/material/Criptografia/Hardware/HSM",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Hardware/index",
+              "path": "/material/Criptografia/Hardware/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/Hardware/TPM",
+              "path": "/material/Criptografia/Hardware/TPM",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Criptografia/index",
+              "path": "/material/Criptografia/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/material/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Camada1/index",
+              "path": "/material/Redes/Camada1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Camada1/Introducao",
+              "path": "/material/Redes/Camada1/Introducao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Camada1/topologia",
+              "path": "/material/Redes/Camada1/topologia",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Camada2/index",
+              "path": "/material/Redes/Camada2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Camada2/introducao",
+              "path": "/material/Redes/Camada2/introducao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Camada2/Wifi",
+              "path": "/material/Redes/Camada2/Wifi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Fundamentos/index",
+              "path": "/material/Redes/Fundamentos/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Fundamentos/introcucao",
+              "path": "/material/Redes/Fundamentos/introcucao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/Fundamentos/Modeloosi",
+              "path": "/material/Redes/Fundamentos/Modeloosi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Redes/index",
+              "path": "/material/Redes/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/Antivirus",
+              "path": "/material/Segurança Pessoal/Antivirus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/Extras",
+              "path": "/material/Segurança Pessoal/Extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/Gerenciadores",
+              "path": "/material/Segurança Pessoal/Gerenciadores",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/index",
+              "path": "/material/Segurança Pessoal/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/Malwares",
+              "path": "/material/Segurança Pessoal/Malwares",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/Phishing",
+              "path": "/material/Segurança Pessoal/Phishing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/Senhas",
+              "path": "/material/Segurança Pessoal/Senhas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Segurança Pessoal/VPNs",
+              "path": "/material/Segurança Pessoal/VPNs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Sistemas-Operacionais/index",
+              "path": "/material/Sistemas-Operacionais/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Sistemas-Operacionais/linux",
+              "path": "/material/Sistemas-Operacionais/linux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Sistemas-Operacionais/windowns",
+              "path": "/material/Sistemas-Operacionais/windowns",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/material/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

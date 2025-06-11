@@ -1,0 +1,28 @@
+{
+  "id": "Criptografia/AlgoritmosAssimetricos/index",
+  "title": "Algoritmos Assimétricos",
+  "description": "",
+  "source": "@site/docs/Criptografia/AlgoritmosAssimetricos/index.md",
+  "sourceDirName": "Criptografia/AlgoritmosAssimetricos",
+  "slug": "/Criptografia/AlgoritmosAssimetricos/",
+  "permalink": "/material/Criptografia/AlgoritmosAssimetricos/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/AlgoritmosAssimetricos/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Algoritmos Assimétricos",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AES",
+    "permalink": "/material/Criptografia/AlgoritmosSimetricos/AES"
+  },
+  "next": {
+    "title": "RSA",
+    "permalink": "/material/Criptografia/AlgoritmosAssimetricos/RSA"
+  }
+}

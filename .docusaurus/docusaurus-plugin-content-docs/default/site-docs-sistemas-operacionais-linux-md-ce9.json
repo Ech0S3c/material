@@ -1,0 +1,24 @@
+{
+  "id": "Sistemas-Operacionais/linux",
+  "title": "Linux",
+  "description": "&emsp; Quando se fala em sistemas operacionais no contexto de segurança da informação, poucos nomes surgem com tanta força quanto o Linux. Embora a maioria dos usuários comuns esteja habituada ao Windows, profissionais de tecnologia , especialmente os que atuam em áreas como infraestrutura, cibersegurança, computação em nuvem e desenvolvimento, precisam dominar Linux em um nível técnico e prático.",
+  "source": "@site/docs/Sistemas-Operacionais/linux.md",
+  "sourceDirName": "Sistemas-Operacionais",
+  "slug": "/Sistemas-Operacionais/linux",
+  "permalink": "/material/Sistemas-Operacionais/linux",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Sistemas-Operacionais/linux.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Linux",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows",
+    "permalink": "/material/Sistemas-Operacionais/windowns"
+  }
+}

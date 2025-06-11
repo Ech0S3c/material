@@ -1,0 +1,28 @@
+{
+  "id": "Segurança Pessoal/index",
+  "title": "Segurança Pessoal",
+  "description": "Bem-vindo a parte de Segurança Pessoal Digital. Neste material, você aprenderá os principais conceitos e práticas para proteger seus dados, identidade e dispositivos no ambiente online.",
+  "source": "@site/docs/Segurança Pessoal/index.md",
+  "sourceDirName": "Segurança Pessoal",
+  "slug": "/Segurança Pessoal/",
+  "permalink": "/material/Segurança Pessoal/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Segurança Pessoal/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Segurança Pessoal",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conclusão",
+    "permalink": "/material/Criptografia/conclusao"
+  },
+  "next": {
+    "title": "Senhas Seguras",
+    "permalink": "/material/Segurança Pessoal/Senhas"
+  }
+}

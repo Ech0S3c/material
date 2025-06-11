@@ -1,0 +1,28 @@
+{
+  "id": "Segurança Pessoal/Gerenciadores",
+  "title": "Gerenciadores de Senhas",
+  "description": "O que é um gerenciador de senhas?",
+  "source": "@site/docs/Segurança Pessoal/Gerenciadores.md",
+  "sourceDirName": "Segurança Pessoal",
+  "slug": "/Segurança Pessoal/Gerenciadores",
+  "permalink": "/material/Segurança Pessoal/Gerenciadores",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Segurança Pessoal/Gerenciadores.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Gerenciadores de Senhas",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Antivirus",
+    "permalink": "/material/Segurança Pessoal/Antivirus"
+  },
+  "next": {
+    "title": "VPN (Virtual Private Network)",
+    "permalink": "/material/Segurança Pessoal/VPNs"
+  }
+}

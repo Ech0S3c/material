@@ -1,0 +1,28 @@
+{
+  "id": "Criptografia/Fundamentos/CripSimetrica",
+  "title": "Criptografia Simetrica",
+  "description": "Imagine um cofre. Agora imagine que você e outra pessoa usam exatamente a mesma chave para trancar e destrancar esse cofre. Essa é a base da criptografia simétrica, ou como também é chamada: criptografia de chave secreta.Ela é simples e eficiente mas se mal utilizada, é desastrosa.",
+  "source": "@site/docs/Criptografia/Fundamentos/CripSimetrica.md",
+  "sourceDirName": "Criptografia/Fundamentos",
+  "slug": "/Criptografia/Fundamentos/CripSimetrica",
+  "permalink": "/material/Criptografia/Fundamentos/CripSimetrica",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/Fundamentos/CripSimetrica.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Criptografia Simetrica",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fundamentos de Criptografia",
+    "permalink": "/material/Criptografia/Fundamentos/"
+  },
+  "next": {
+    "title": "Criptografia Assimetrica",
+    "permalink": "/material/Criptografia/Fundamentos/CripAssimetrica"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "Criptografia/conclusao",
+  "title": "Conclusão",
+  "description": "Bem... você chegou até aqui.",
+  "source": "@site/docs/Criptografia/conclusao.md",
+  "sourceDirName": "Criptografia",
+  "slug": "/Criptografia/conclusao",
+  "permalink": "/material/Criptografia/conclusao",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/conclusao.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Conclusão",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ataques de Canais Laterais",
+    "permalink": "/material/Criptografia/Hardware/ataquesLaretais"
+  },
+  "next": {
+    "title": "Segurança Pessoal",
+    "permalink": "/material/Segurança Pessoal/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "Redes/Camada1/topologia",
+  "title": "Topologia de Redes",
+  "description": "1. Topologia de Redes",
+  "source": "@site/docs/Redes/Camada1/topologia.md",
+  "sourceDirName": "Redes/Camada1",
+  "slug": "/Redes/Camada1/topologia",
+  "permalink": "/material/Redes/Camada1/topologia",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Redes/Camada1/topologia.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Topologia de Redes",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introdução Camada Física",
+    "permalink": "/material/Redes/Camada1/Introducao"
+  },
+  "next": {
+    "title": "Camada 2 - Enlace",
+    "permalink": "/material/Redes/Camada2/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "Redes/Camada2/index",
+  "title": "Camada 2 - Enlace",
+  "description": "",
+  "source": "@site/docs/Redes/Camada2/index.md",
+  "sourceDirName": "Redes/Camada2",
+  "slug": "/Redes/Camada2/",
+  "permalink": "/material/Redes/Camada2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Redes/Camada2/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Camada 2 - Enlace",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Topologia de Redes",
+    "permalink": "/material/Redes/Camada1/topologia"
+  },
+  "next": {
+    "title": "Introdução",
+    "permalink": "/material/Redes/Camada2/introducao"
+  }
+}

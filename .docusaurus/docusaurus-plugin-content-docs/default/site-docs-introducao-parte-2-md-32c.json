@@ -1,0 +1,28 @@
+{
+  "id": "Introdução/parte2",
+  "title": "Atuações e Carreiras",
+  "description": "Se você chegou até aqui, já entendeu que Cybersecurity não é um monolito. Ela é um multiverso de áreas, cada uma com suas próprias regras, linguagens, ferramentas e vibes. E sim — existe espaço pra gente de todo tipo: do programador linha de código hardcore ao estrategista político-corporativo que não sabe o que é grep (e tudo bem!).",
+  "source": "@site/docs/Introdução/parte2.md",
+  "sourceDirName": "Introdução",
+  "slug": "/Introdução/parte2",
+  "permalink": "/material/Introdução/parte2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introdução/parte2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Atuações e Carreiras",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introdução",
+    "permalink": "/material/Introdução/"
+  },
+  "next": {
+    "title": "Compreendendo Ataques e CIR",
+    "permalink": "/material/Introdução/parte3"
+  }
+}

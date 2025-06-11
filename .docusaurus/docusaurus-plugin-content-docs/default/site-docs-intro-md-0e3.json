@@ -1,0 +1,25 @@
+{
+  "id": "intro",
+  "title": "Bem vindos",
+  "description": "Nesse material você poderá ter um roadmap claro sobre a área de Cybersecurity e como você conseguirá aprofundar nos seus estudos.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/material/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "Bem vindos",
+    "sidebar_position": 0,
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introdução",
+    "permalink": "/material/Conceitos Base/"
+  }
+}

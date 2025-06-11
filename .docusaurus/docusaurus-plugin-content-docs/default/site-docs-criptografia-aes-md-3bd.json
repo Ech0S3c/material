@@ -1,0 +1,24 @@
+{
+  "id": "Criptografia/AES",
+  "title": "AES",
+  "description": "AES e seus Modos de Operação — Nem só de chave vive a cifra",
+  "source": "@site/docs/Criptografia/AES.md",
+  "sourceDirName": "Criptografia",
+  "slug": "/Criptografia/AES",
+  "permalink": "/material/Criptografia/AES",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/AES.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conclusão",
+    "permalink": "/material/Criptografia/conclusao"
+  },
+  "next": {
+    "title": "AlgoritmosHash",
+    "permalink": "/material/Criptografia/AlgoritmosHash"
+  }
+}

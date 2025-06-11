@@ -1,0 +1,28 @@
+{
+  "id": "Sistemas-Operacionais/index",
+  "title": "Sistemas Operacionais",
+  "description": "&emsp; Quando ligamos um computador ou um celular, esperamos que tudo funcione o Sistema Operacional, ou simplesmente S.O.",
+  "source": "@site/docs/Sistemas-Operacionais/index.md",
+  "sourceDirName": "Sistemas-Operacionais",
+  "slug": "/Sistemas-Operacionais/",
+  "permalink": "/material/Sistemas-Operacionais/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Sistemas-Operacionais/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Sistemas Operacionais",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Wi-fi",
+    "permalink": "/material/Redes/Camada2/Wifi"
+  },
+  "next": {
+    "title": "Windows",
+    "permalink": "/material/Sistemas-Operacionais/windowns"
+  }
+}

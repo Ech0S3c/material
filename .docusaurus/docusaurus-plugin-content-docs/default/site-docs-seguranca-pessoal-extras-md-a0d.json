@@ -1,0 +1,28 @@
+{
+  "id": "Segurança Pessoal/Extras",
+  "title": "Dicas (Importante!)",
+  "description": "Você já aprendeu sobre senhas fortes, phishing, malwares, antivírus, gerenciadores de senhas e VPNs. Mas a segurança pessoal digital vai além de ferramentas ela envolve comportamento contínuo e consciente.",
+  "source": "@site/docs/Segurança Pessoal/Extras.md",
+  "sourceDirName": "Segurança Pessoal",
+  "slug": "/Segurança Pessoal/Extras",
+  "permalink": "/material/Segurança Pessoal/Extras",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Segurança Pessoal/Extras.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Dicas (Importante!)",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VPN (Virtual Private Network)",
+    "permalink": "/material/Segurança Pessoal/VPNs"
+  },
+  "next": {
+    "title": "Redes de Computadores",
+    "permalink": "/material/Redes/"
+  }
+}

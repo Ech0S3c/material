@@ -1,0 +1,28 @@
+{
+  "id": "Criptografia/AlgoritmosSimetricos/AES",
+  "title": "AES",
+  "description": "Todo mundo já ouviu falar de AES. É o “cifrão oficial” da internet moderna. Se você usa VPN, abre um site com HTTPS ou desbloqueia um app bancário, tem uma boa chance de estar passando por ele.",
+  "source": "@site/docs/Criptografia/AlgoritmosSimetricos/AES.md",
+  "sourceDirName": "Criptografia/AlgoritmosSimetricos",
+  "slug": "/Criptografia/AlgoritmosSimetricos/AES",
+  "permalink": "/material/Criptografia/AlgoritmosSimetricos/AES",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/AlgoritmosSimetricos/AES.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "AES",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cifras de Bloco vs. Cifras de Fluxo",
+    "permalink": "/material/Criptografia/AlgoritmosSimetricos/cifras"
+  },
+  "next": {
+    "title": "Algoritmos Assimétricos",
+    "permalink": "/material/Criptografia/AlgoritmosAssimetricos/"
+  }
+}

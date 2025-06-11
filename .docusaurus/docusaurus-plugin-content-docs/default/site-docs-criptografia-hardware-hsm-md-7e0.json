@@ -1,0 +1,28 @@
+{
+  "id": "Criptografia/Hardware/HSM",
+  "title": "HSM",
+  "description": "Vamos imaginar a seguinte situação: você tem um segredo valioso. Mas não é qualquer segredo. É daquele tipo que, se vazar, compromete todo o sistema para sempre. Um segredo que precisa ser guardado em um lugar onde nem mesmo o próprio sistema operacional tem permissão para olhar tipo ~A senha da conta bancária do dono do tigrinho~ segredos de Estado.",
+  "source": "@site/docs/Criptografia/Hardware/HSM.md",
+  "sourceDirName": "Criptografia/Hardware",
+  "slug": "/Criptografia/Hardware/HSM",
+  "permalink": "/material/Criptografia/Hardware/HSM",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/Hardware/HSM.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "HSM",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hardware e Criptografia?",
+    "permalink": "/material/Criptografia/Hardware/"
+  },
+  "next": {
+    "title": "TPM",
+    "permalink": "/material/Criptografia/Hardware/TPM"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "Conceitos Base/parte5",
+  "title": "Segurança Pessoal",
+  "description": "",
+  "source": "@site/docs/Conceitos Base/parte5.md",
+  "sourceDirName": "Conceitos Base",
+  "slug": "/Conceitos Base/parte5",
+  "permalink": "/material/Conceitos Base/parte5",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Conceitos Base/parte5.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Segurança Pessoal",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conceitos de cybersecurity",
+    "permalink": "/material/Conceitos Base/parte4"
+  },
+  "next": {
+    "title": "Criptografia",
+    "permalink": "/material/Criptografia/"
+  }
+}

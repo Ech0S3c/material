@@ -1,0 +1,24 @@
+{
+  "id": "Criptografia/AlgoritmosHash/Algoritmoscomuns",
+  "title": "Algoritmoscomuns",
+  "description": "bcrypt, Argon2, HKDF e EdDSA — Quatro pilares da criptografia aplicada",
+  "source": "@site/docs/Criptografia/AlgoritmosHash/Algoritmoscomuns.md",
+  "sourceDirName": "Criptografia/AlgoritmosHash",
+  "slug": "/Criptografia/AlgoritmosHash/Algoritmoscomuns",
+  "permalink": "/material/Criptografia/AlgoritmosHash/Algoritmoscomuns",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/AlgoritmosHash/Algoritmoscomuns.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algoritmos Hash",
+    "permalink": "/material/Criptografia/AlgoritmosHash/"
+  },
+  "next": {
+    "title": "SHA",
+    "permalink": "/material/Criptografia/AlgoritmosHash/SHA"
+  }
+}

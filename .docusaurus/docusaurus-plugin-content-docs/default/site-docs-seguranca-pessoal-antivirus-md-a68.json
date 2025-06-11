@@ -1,0 +1,28 @@
+{
+  "id": "Segurança Pessoal/Antivirus",
+  "title": "Antivirus",
+  "description": "O que é um antivírus?",
+  "source": "@site/docs/Segurança Pessoal/Antivirus.md",
+  "sourceDirName": "Segurança Pessoal",
+  "slug": "/Segurança Pessoal/Antivirus",
+  "permalink": "/material/Segurança Pessoal/Antivirus",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Segurança Pessoal/Antivirus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Antivirus",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Malwares",
+    "permalink": "/material/Segurança Pessoal/Malwares"
+  },
+  "next": {
+    "title": "Gerenciadores de Senhas",
+    "permalink": "/material/Segurança Pessoal/Gerenciadores"
+  }
+}

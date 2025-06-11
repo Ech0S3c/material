@@ -1,0 +1,28 @@
+{
+  "id": "Redes/Fundamentos/topologia",
+  "title": "Topologia de Redes",
+  "description": "",
+  "source": "@site/docs/Redes/Fundamentos/topologia.md",
+  "sourceDirName": "Redes/Fundamentos",
+  "slug": "/Redes/Fundamentos/topologia",
+  "permalink": "/material/Redes/Fundamentos/topologia",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Redes/Fundamentos/topologia.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Topologia de Redes",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introdução",
+    "permalink": "/material/Redes/Fundamentos/introcucao"
+  },
+  "next": {
+    "title": "Modelo OSI",
+    "permalink": "/material/Redes/Fundamentos/Modeloosi"
+  }
+}

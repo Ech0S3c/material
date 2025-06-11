@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Sistemas-Operacionais/linux" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Linux | Echosec Material</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://JvWandermurem.github.io/material/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://JvWandermurem.github.io/material/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://JvWandermurem.github.io/material/Sistemas-Operacionais/linux"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Linux | Echosec Material"><meta data-rh="true" name="description" content="&amp;emsp; Quando se fala em sistemas operacionais no contexto de segurança da informação, poucos nomes surgem com tanta força quanto o Linux. Embora a maioria dos usuários comuns esteja habituada ao Windows, profissionais de tecnologia , especialmente os que atuam em áreas como infraestrutura, cibersegurança, computação em nuvem e desenvolvimento, precisam dominar Linux em um nível técnico e prático."><meta data-rh="true" property="og:description" content="&amp;emsp; Quando se fala em sistemas operacionais no contexto de segurança da informação, poucos nomes surgem com tanta força quanto o Linux. Embora a maioria dos usuários comuns esteja habituada ao Windows, profissionais de tecnologia , especialmente os que atuam em áreas como infraestrutura, cibersegurança, computação em nuvem e desenvolvimento, precisam dominar Linux em um nível técnico e prático."><link data-rh="true" rel="icon" href="/material/img/logo.svg"><link data-rh="true" rel="canonical" href="https://JvWandermurem.github.io/material/Sistemas-Operacionais/linux"><link data-rh="true" rel="alternate" href="https://JvWandermurem.github.io/material/Sistemas-Operacionais/linux" hreflang="en"><link data-rh="true" rel="alternate" href="https://JvWandermurem.github.io/material/Sistemas-Operacionais/linux" hreflang="x-default"><link rel="stylesheet" href="/material/assets/css/styles.bf585c3f.css">
+<script src="/material/assets/js/runtime~main.4ea92ece.js" defer="defer"></script>
+<script src="/material/assets/js/main.6e95e1e8.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/material/img/logo.svg"><link rel="preload" as="image" href="../../img/linus.png"><link rel="preload" as="image" href="../../img/diretorios.jpg"><link rel="preload" as="image" href="../../img/chmod.jpeg"><link rel="preload" as="image" href="../../img/mint.avif"><link rel="preload" as="image" href="../../img/ubuntu.jpg"><link rel="preload" as="image" href="../../img/Manjaro.png"><link rel="preload" as="image" href="../../img/debian.png"><link rel="preload" as="image" href="../../img/fedora.avif"><link rel="preload" as="image" href="../../img/kali.jpg"><link rel="preload" as="image" href="../../img/tails.png"><link rel="preload" as="image" href="../../img/redhat.jpg"><link rel="preload" as="image" href="../../img/archlinux.jpg"><link rel="preload" as="image" href="../../img/gentoo.jpg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/material/"><div class="navbar__logo"><img src="/material/img/logo.svg" alt="Walter WHite =0" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/material/img/logo.svg" alt="Walter WHite =0" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">EchoSec</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/material/">Tutorial</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/Ech0S3c" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/material/">Bem vindos</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/material/Conceitos Base/">Introdução</a><button aria-label="Expand sidebar category &#x27;Introdução&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/material/Criptografia/">Criptografia</a><button aria-label="Expand sidebar category &#x27;Criptografia&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/material/Segurança Pessoal/">Segurança Pessoal</a><button aria-label="Expand sidebar category &#x27;Segurança Pessoal&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/material/Redes/">Redes de Computadores</a><button aria-label="Expand sidebar category &#x27;Redes de Computadores&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/material/Sistemas-Operacionais/">Sistemas Operacionais</a><button aria-label="Collapse sidebar category &#x27;Sistemas Operacionais&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/material/Sistemas-Operacionais/windowns">Windows</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/material/Sistemas-Operacionais/linux">Linux</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/material/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/material/Sistemas-Operacionais/"><span itemprop="name">Sistemas Operacionais</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Linux</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Linux</h1></header>
+<p>  Quando se fala em sistemas operacionais no contexto de segurança da informação, poucos nomes surgem com tanta força quanto o Linux. Embora a maioria dos usuários comuns esteja habituada ao Windows, profissionais de tecnologia , especialmente os que atuam em áreas como infraestrutura, cibersegurança, computação em nuvem e desenvolvimento, precisam dominar Linux em um nível técnico e prático.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-introdução">1. Introdução<a href="#1-introdução" class="hash-link" aria-label="Direct link to 1. Introdução" title="Direct link to 1. Introdução">​</a></h2>
+<p> O Linux, tecnicamente falando, é o <strong>kernel , ou seja, o núcleo do sistema operacional</strong>. O kernel é a parte mais fundamental de qualquer sistema operacional: é ele que gerencia a comunicação entre o software e o hardware. No caso do Linux, estamos falando de um kernel monolítico e modular, construído com o objetivo de ser seguro, eficiente e altamente configurável.</p>
+<p> Porém, no uso cotidiano, chamamos de “Linux” o conjunto completo de software que roda sobre esse kernel — o que inclui shells, bibliotecas, sistemas de arquivos, utilitários básicos e, em muitos casos, ambientes gráficos. Esse conjunto é o que forma uma distribuição Linux, como Ubuntu, Debian, Fedora ou Kali. Cada distribuição combina o kernel Linux com diferentes ferramentas, pacotes e configurações, moldando-o para propósitos específicos: desktop, servidores, dispositivos embarcados ou segurança ofensiva.</p>
+<p> O projeto Linux teve início em 1991, quando Linus Torvalds, então estudante de ciência da computação, anunciou que estava desenvolvendo um kernel de código aberto inspirado no Unix. A ideia inicial era apenas um projeto pessoal. No entanto, com o apoio da comunidade global de desenvolvedores e da filosofia do software livre, o Linux se expandiu rapidamente, tornando-se hoje um dos sistemas operacionais mais utilizados no mundo.</p>
+<p style="text-align:center"> Linus Torvalds </p>
+<div style="text-align:center"><img src="../../img/linus.png"></div>
+<p></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-estrutura">2. Estrutura<a href="#2-estrutura" class="hash-link" aria-label="Direct link to 2. Estrutura" title="Direct link to 2. Estrutura">​</a></h2>
+<p> Assim como o Windows, o Linux possui uma estrutura em camadas — mas com princípios bem diferentes, como simplicidade, modularidade e transparência.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="21-kernel">2.1 Kernel<a href="#21-kernel" class="hash-link" aria-label="Direct link to 2.1 Kernel" title="Direct link to 2.1 Kernel">​</a></h3>
+<p> No centro de tudo está o kernel, que é carregado na inicialização e permanece em execução contínua, controlando os recursos de hardware: memória, processador, disco, placas de rede, etc. O kernel oferece APIs que os programas em espaço de usuário utilizam para solicitar serviços. Assim, comandos, scripts, serviços e aplicações não interagem diretamente com o hardware, mas sim através das chamadas de sistema oferecidas pelo kernel.</p>
+<p> O kernel Linux é monolítico e modular. Ele gerencia a CPU, memória, dispositivos, arquivos e segurança. Ele roda em espaço privilegiado (Ring 0), assim como o kernel do Windows.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="22-espaço-de-usuário-user-space">2.2 Espaço de Usuário (User Space)<a href="#22-espaço-de-usuário-user-space" class="hash-link" aria-label="Direct link to 2.2 Espaço de Usuário (User Space)" title="Direct link to 2.2 Espaço de Usuário (User Space)">​</a></h3>
+<p> Aqui é onde os programas de usuário rodam, incluindo shells (como bash, zsh), editores, navegadores, utilitários de rede, etc.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="23-shell">2.3 Shell<a href="#23-shell" class="hash-link" aria-label="Direct link to 2.3 Shell" title="Direct link to 2.3 Shell">​</a></h3>
+<p> O shell é a interface de linha de comando. É onde você digita comandos como ls, cat, cd, grep, sudo...</p>
+<p>Por exemplo se você estiver no windows e apertar <code>ctrl + r</code>, digitar <code>cmd</code> e depois apertar <code>Enter</code> vai abrir seu shell, powershell</p>
+<p>O terminal não é opcional em Linux, especialmente para quem trabalha com segurança. Existem alguns tipos de Shell, os mais famosos para linux são o Bash ou Zsh</p>
+<div class="theme-admonition theme-admonition-caution admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Bash x Zsh x Fish</div><div class="admonitionContent_BuS1"><p>Bash, Zsh e Fish são diferentes shell interpreters que permitem a interação com o sistema operacional via linha de comando. O Bash é o shell padrão em muitos sistemas Linux e MacOS, sendo conhecido pela sua simplicidade e ampla compatibilidade.</p><p>O Zsh oferece um ambiente mais personalizável, com recursos avançados como autocompletar e plugins, enquanto o Fish se destaca pela sua interface amigável e fácil de usar, com recursos embutidos como sugestões de comandos e navegação intuitiva. Mas no final, acredito que é questão de gosto, tanto é que uso Zsh.</p><iframe width="760" height="415" src="https://www.youtube.com/embed/vE0McEujAGk?si=vZllItDpf26yQdCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe><p><strong>Bash (Bourne Again Shell):</strong></p><ul>
+<li>
+<p>É o shell mais comum em sistemas Linux e MacOS.</p>
+</li>
+<li>
+<p>Simplicidade: É conhecido pela sua simplicidade e estabilidade, sendo ideal para scripts e tarefas de nível de sistema.</p>
+</li>
+<li>
+<p>Compatibilidade: É um shell amplamente compatível e fácil de usar para iniciantes.</p>
+</li>
+</ul><hr><p><strong>Zsh (Z Shell):</strong></p><ul>
+<li>Permite uma grande personalização com plugins e temas, oferecendo uma experiência mais interativa.</li>
+</ul><p>-Oferece recursos como autocompletar, sugestões de comandos e histórico de comandos.</p><ul>
+<li>É compatível com scripts Bash, o que facilita a migração para quem já utiliza o Bash.</li>
+</ul><hr><p><strong>Fish (Friendly Interactive Shell):</strong></p><ul>
+<li>
+<p>Destaca-se pela sua interface amigável e fácil de usar, com recursos embutidos que facilitam a navegação.</p>
+</li>
+<li>
+<p>Possui recursos como sugestões de comandos, navegação intuitiva e autocompletar.</p>
+</li>
+<li>
+<p>É mais fácil de configurar e usar do que o Zsh, com recursos embutidos que dispensam a necessidade de plugins e extensões.</p>
+</li>
+</ul></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="24-sistema-de-arquivos">2.4 Sistema de Arquivos<a href="#24-sistema-de-arquivos" class="hash-link" aria-label="Direct link to 2.4 Sistema de Arquivos" title="Direct link to 2.4 Sistema de Arquivos">​</a></h3>
+<p>  No Linux, tudo é representado como um arquivo: dispositivos, diretórios, sockets, pipes e até processos. Os utilizadores com experiência em Windows podem estranhar a ausência do C: ou D:, ou outras drives começadas por letras. No Linux, o sistema de ficheiros tem uma hierarquia, na qual, a partir da raiz existe um conjunto de diretórios. Cada diretório tem uma designação e funções específicas que a muito curto prazo farão sentido para o utilizador.</p>
+<p>  Toda a estrutura dos ficheiros é hierárquica. O diretório raiz é representado uma barra para a frente, ou seja, “/”. Dentro do diretório raiz entram todos os restantes, designados por nomes compostos por três letras. Apesar de a designação de cada diretório parecer estranha a um utilizador iniciante, a muito curto prazo, estas designações serão lógicas e facilitarão que o utilizador se movimente pelo sistema, consoante a sua necessidade, por exemplo, para aceder e alterar configurações do sistema vai ao /etc/. Para verificar os logs de sistema vai a /var/logs/, etc.</p>
+<p style="text-align:center"> Diretórios </p>
+<div style="text-align:center"><img src="../../img/diretorios.jpg"></div>
+<p></p>
+<p><strong>/ - Diretório Root</strong></p>
+<p>O / é o root ou, em português, a raiz. Como o nome indica este é o diretório raiz do seu sistema Linux. É aqui que encontrará todos os restantes diretórios e todos os dados que se encontram em seu sistema. Até mesmo um CD/DVD, disco externo ou qualquer outro periférico se encontra dentro da raiz do sistema. Ao asceder à raiz, irá encontrar todos os restantes diretórios.</p>
+<p><em>Na linha de comandos você navega para o root digitando cd /.</em></p>
+<hr>
+<p><strong>/bin/ - Binários essenciais</strong></p>
+<p>O /bin/ é o diretório onde ficam guardados ficheiros binários que têm de estar acessíveis a todos os utilizadores do sistema. Estes ficheiros binários não são mais do que programas que o próprio sistema inicia de forma autónoma e independente do utilizador que utiliza o sistema. Outros programas que pertençam a um utilizador específico podem estar no diretório /usr/bin/. O diretório /sbin, quando exista, pode cumprir a mesma função do /bin.</p>
+<p><em>Da linha de comandos, o utilizador chega ao /bin digitando cd /bin/.</em></p>
+<hr>
+<p><strong>/dev/ - Arquivos de dispositivos</strong></p>
+<p>O /dev/ é o diretório onde ficam ficheiros especiais associados aos dispositivos do sistema. Estes ficheiros são especiais porque representam os dispositivos do sistema. Por exemplo, um disco rígido do sistema aparecerá como /dev/sda. Muitos dos ficheiros encontrados no /dev/ não são mais do que ficheiros virtuais que na realidade podem nem existir. Por exemplo, o /dev/null não é mais do que um pseudo ficheiro que não produz qualquer output e descarta automaticamente todo o input que recebe. Ou seja, converte qualquer input em nada ou null. Outro exemplo de pseudo ficheiro é o /dev/random que não faz mais do produzir um número aleatório. Repare que tanto o /dev/random, como o /dev/null se enquadram mais na categoria de dispositivos, pois executam uma tarefa específica. São portanto dispositivos virtuais.</p>
+<p><em>Na linha de comandos você navega para o /dev/ digitando cd /dev/.</em></p>
+<hr>
+<p><strong>/etc/ - Ficheiros de configuração</strong></p>
+<p>O /etc/ é o diretório onde se encontram todos os ficheiros globais de configuração do sistema. Na sua grande maioria estes ficheiros podem ser editados com recurso a um simples editor de texto. Repare que neste diretório encontra ficheiros de configuração do sistema e não de um utilizador específico. Os ficheiros de configuração de um utilizador específico encontram-se no ficheiro home de cada utilizador.</p>
+<p><em>O Usuário pode ver a totalidade dos ficheiros de configuração existentes no seu diretório /etc/ executando a seguinte instrução na linha de comandos: ls /etc/.</em></p>
+<hr>
+<p><strong>/home/ - Arquivos de utilizadores</strong></p>
+<p>O /home/ é o diretório onde encontramos um arquivo por cada utilizador existente no sistema.
+Sempre que adicionamos um novo utilizador ao sistema, por exemplo com o nome utilizador2 no diretório /home/ é criado um arquivo para este utilizador, aparecendo como /home/utilizador2/. Neste caso, dentro do arquivo utilizador2 ficarão todos os ficheiros de configurações específicas para aquele utilizador, bem como todos os seus ficheiros de dados.</p>
+<p><em>Na linha de comandos para navegar para o arquivo /home/ basta digitar cd ~ .</em></p>
+<hr>
+<p><strong>/lib/ - Bibliotecas partilhadas e módulos Kernel</strong></p>
+<p>O /lib/ é o diretório onde estão armazenadas as bibliotecas partilhadas no sistema. Estas bibliotecas podem variar consoante a Distribuição utilizada e podem ser, por exemplo Bibliotecas de linguagens como perl, python, C, entre outras. É também neste diretório que estão os módulos do Kernel do Sistema Operativo.</p>
+<p><em>Da linha de comandos, o utilizador chega ao /lib digitando cd /lib .</em></p>
+<hr>
+<p><strong>/mnt/ - Pontos de montagem temporários</strong></p>
+<p>O /mnt/ é o diretório onde podemos encontrar pontos de montagem temporários, ou seja, é aqui que são criados os ficheiros especiais associados aos dispositivos do sistema temporários. Estes dispositivos podem diversos dispositivos como CD/DVD, USB, etc. Apesar de este ser o diretório padrão para a montagem de dispositivos temporários, é possível montá-los em outras localizações do sistema de ficheiros.</p>
+<p><em>Poderá deslocar-se para este diretório digitando cd /mnt .</em></p>
+<hr>
+<p><strong>/proc/ - Arquivos de processos</strong></p>
+<p>O /proc/ é o arquivo onde se encontram ficheiros especiais associados aos processos do sistema. Estes ficheiros são especiais porque representam os processos em funcionamento no sistema. Por exemplo, haverá um ficheiro que fornece informação sobre o funcionamento do processador, ou sobre outras operações que ocorram no sistema.</p>
+<p><em>Na linha de comandos, basta digitar cd /proc para aceder a este diretório.</em></p>
+<hr>
+<p><strong>/root/ - Diretório raiz do Super Utilizador Root</strong></p>
+<p>O /root/ é o arquivo home do root, o Super Uilizador de sistema. Este diretório não é a mesma coisa que a raiz do sistema / , de onde descendem todos os restantes diretórios. Trata-se sim de um diretório dedicado ao utilizador root.</p>
+<p><em>Na linha de comandos, o utilizador chega ao /sbin digitando cd /root .</em></p>
+<hr>
+<p><strong>/sbin/ - Binários de sistema</strong></p>
+<p>O /sbin/ é o diretório destinado aos ficheiros binários que são utilizados pelo Super Utilizador root e para administração do sistema. Pode-se dizer que este diretório é semelhante ao /bin/ , mas com a particularidade de serem programas que normalmente não serão utilizados por utilizadores com permissões limitadas. Este diretório pode não existir num sistema e pode também substituir o diretório /bin/ .</p>
+<p><em>Da linha de comandos, o utilizador chega ao /sbin digitando cd /sbin .</em></p>
+<hr>
+<p><strong>/tmp/ - Ficheiros temporários</strong></p>
+<p>O /tmp/ é o diretório onde encontramos os ficheiros temporários do sistema. Estes ficheiros são normalmente gerados pelo sistema e como o nome indica, permanecem no sistema durante um período limitado de tempo. Por exemplo, sempre que instalamos um programa, este utiliza o diretório /tmp/ para colocar ficheiros que serão necessários durante a instalação, mas que não voltarão a ser necessários.</p>
+<p><em>Da linha de comandos, podemos chegar ao /tmp digitando cd /tmp .</em></p>
+<hr>
+<p><strong>/usr/ - Programas e aplicações de utilizadores</strong></p>
+<p>O /usr/ é o diretório onde estão ficheiros e programas utilizados pelos utilizadores existentes no sistema. No caso dos programas, no diretório /usr/bin ficam todas as aplicações que não são essenciais ao sistema e, por conseguinte, não se encontram no diretório /sbin/ ou /bin/ . No caso dos programas que ficam no diretório /usr/bin/ as bibliotecas associadas a estes sistemas ficam localizadas no diretório /usr/lib/ .</p>
+<p><em>Para acessar a este diretório da linha de comandos, basta digitar cd /usr/ .</em></p>
+<hr>
+<p><strong>/var/ - Ficheiros e dados variáveis</strong></p>
+<p>O /var/ é o diretório onde ficam diversos ficheiros de dados vindos das contas de utilizadores. Este pode ser visto como um diretório “eco” do que acontece no diretório /usr/, pois estes últimos têm permissões de read only, pelo que os registos de tudo o que acontece, ou seja, os logs são escritos no /var/. É também neste diretório que são colocadas bases de dados locais pertencentes a programas instalados pelos utilizadores.</p>
+<p><em>Para aceder a este diretório da linha de comandos, basta digitar cd /var/ .</em></p>
+<hr>
+<p><strong>/boot/ - Ficheiros de arranque do sistema</strong></p>
+<p>O /boot/ é o diretório onde se encontram variados ficheiros necessários ao arranque do sistema operativo. É neste diretório, por exemplo, que podemos encontrar os ficheiros Boot Loaders, responsáveis por gerir o arranque do sistema. Regra geral, não é aconselhável alterar o conteúdo deste diretório e as próprias configurações dos Boot Loaders não se encontram neste diretório mas sim no /etc/ .
+<em>Para acessar a este diretório da linha de comandos, basta digitar cd /boot/ .</em></p>
+<hr>
+<p><strong>/lost+found/ - Perdidos e achados do sistema</strong></p>
+<p>O /lost+found/ é o diretório que serve precisamente para o que o seu nome indica. Perdidos e Achados. Se, por alguma razão, o seu sistema sofrer um crash e for encerrado inesperadamente, da primeira vez que iniciar o sistema após este evento, ele iniciar será averiguar o sistema e todos os ficheiros ou fragmentos encontrados serão colocados no /lost+found/. Este procedimento permite que os utilizadores consigam recuperar o máximo de informação possível após uma falha de sistema.</p>
+<p><em>Este diretório pode ser acedido da linha de comandos, digitando cd /lost+found/ .</em></p>
+<hr>
+<p><strong>/run/ - Arquivos de aplicações</strong></p>
+<p>O /run/ é um diretório considerado recente, uma vez que não existe desde sempre como outros referidos. Neste diretório ficam ficheiros com informações necessárias para que um determinado programa ou processo possa ser executado. Digamos que é uma área de trabalho que os programas do sistema podem usar.</p>
+<p><em>Acesse este diretório pela linha de comandos, digitando cd /run/ .</em></p>
+<hr>
+<p><strong>/selinux/ - Segurança reforçada no Linux</strong>(Não tem em todos os sistemas)</p>
+<p>O /selinux/ é outro diretório que seguramente não encontrará em muitas distribuições, uma vez que este sistema apenas está incluído em algumas distribuições. Selinux significa Security Enhanced Linux. Trata-se de um módulo de segurança com diversas funcionalidades que permitem segurar um sistema Linux. Quando este módulo se encontra num sistema o diretório /selinux/ pode ser criado, incluindo ficheiros associados ao funcionamento deste módulo, mas também um sistema de ficheiros virtual.</p>
+<p><em>Acesse a este diretório pela linha de comandos, digitando cd /selinux/ .</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-permissões">3. Permissões<a href="#3-permissões" class="hash-link" aria-label="Direct link to 3. Permissões" title="Direct link to 3. Permissões">​</a></h2>
+<p>A segurança do Linux é baseada, desde sua origem, em princípios como separação de privilégios, permissões mínimas e isolamento de processos. Esses conceitos, fundamentais para segurança da informação, são aplicados de forma consistente em todo o sistema.</p>
+<p>Todo arquivo, diretório ou recurso possui um conjunto de permissões que determinam quem pode ler, escrever ou executar aquele recurso. Essas permissões são associadas a três tipos de entidades: o dono do arquivo, o grupo ao qual ele pertence e os outros usuários. O controle de acesso é simples, porém poderoso, e pode ser manipulado via comandos como chmod, chown, umask e setfacl.</p>
+<p>Além das permissões básicas, sistemas Linux corporativos ou sensíveis frequentemente utilizam mecanismos de controle de acesso mandatório, como o SELinux (Security Enhanced Linux) ou o AppArmor, que aplicam políticas de segurança mais restritivas e baseadas em contexto. Essas soluções são fundamentais para proteção contra vulnerabilidades de dia zero, escalonamento de privilégios e execução não autorizada de processos.</p>
+<p>Além disso, o Linux permite a implementação de firewalls e filtros de pacotes diretamente no sistema, com ferramentas como iptables e nftables. Esses mecanismos, embora exigentes no início, oferecem controle total sobre o tráfego de rede, algo essencial em qualquer ambiente seguro.</p>
+<p>Exemplo com CHMOD</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">chmod +x arquivo_script.sh</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p style="text-align:center"> Permissões </p>
+<div style="text-align:center"><img src="../../img/chmod.jpeg"></div>
+<p></p>
+<p><em>o chmod é o comando e a chamada de sistema que pode alterar permissões de acesso de objetos do sistema e sinalizações de modo especial.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-por-que-o-linux-é-central-em-segurança-da-informação">4. Por que o Linux é central em segurança da informação?<a href="#4-por-que-o-linux-é-central-em-segurança-da-informação" class="hash-link" aria-label="Direct link to 4. Por que o Linux é central em segurança da informação?" title="Direct link to 4. Por que o Linux é central em segurança da informação?">​</a></h2>
+<p>A resposta está tanto na natureza técnica do sistema quanto na realidade do mercado.</p>
+<p>Tecnicamente, o Linux oferece uma combinação de:</p>
+<ul>
+<li>
+<p>Transparência total do código-fonte(Open Source);</p>
+</li>
+<li>
+<p>Controle fino sobre permissões, processos e rede;</p>
+</li>
+<li>
+<p>Suporte para ferramentas de segurança modernas;</p>
+</li>
+<li>
+<p>Facilidade de automação com shell scripts;</p>
+</li>
+<li>
+<p>Ferramentas nativas de auditoria e monitoramento.</p>
+</li>
+</ul>
+<hr>
+<p>Na prática, o Linux é amplamente utilizado em:</p>
+<ul>
+<li>
+<p>Servidores Web (Apache, Nginx);</p>
+</li>
+<li>
+<p>Sistemas em nuvem (Amazon EC2, Google Cloud, Azure);</p>
+</li>
+<li>
+<p>Roteadores, firewalls, switches;</p>
+</li>
+<li>
+<p>Plataformas de containers e orquestração (Docker, Kubernetes);</p>
+</li>
+<li>
+<p>Ferramentas de segurança ofensiva (Kali Linux, Metasploit,...);</p>
+</li>
+<li>
+<p>Análise forense e resposta a incidentes.</p>
+</li>
+</ul>
+<p>Se você pretende trabalhar com pentest, análise de vulnerabilidades, defesa de infraestrutura, forense digital ou segurança em nuvem, <strong>saber Linux é um pré-requisito técnico e prático.</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-o-que-são-distribuições-linux">5. O que são distribuições linux?<a href="#5-o-que-são-distribuições-linux" class="hash-link" aria-label="Direct link to 5. O que são distribuições linux?" title="Direct link to 5. O que são distribuições linux?">​</a></h2>
+<p>Ao contrário de sistemas operacionais como o Windows ou macOS, que são mantidos e distribuídos por uma única empresa em uma versão única, o Linux segue um modelo completamente diferente. Ele é construído em torno de um componente central — o kernel Linux — e a partir dele são desenvolvidos sistemas operacionais completos, chamados de distribuições ou, mais comumente, distros.</p>
+<p><code>O que exatamente é uma distribuição Linux?</code></p>
+<p>Uma distribuição Linux é um sistema operacional completo, baseado no kernel Linux, combinado com um conjunto de softwares que o tornam utilizável no dia a dia. Isso inclui:</p>
+<ul>
+<li>
+<p>Shells e utilitários básicos (como bash, grep, ls, chmod, systemctl);</p>
+</li>
+<li>
+<p>Gerenciadores de pacotes (como APT, DNF, pacman);</p>
+</li>
+<li>
+<p>Serviços de inicialização (como systemd ou OpenRC);</p>
+</li>
+<li>
+<p>Ambientes gráficos (como GNOME, KDE ou XFCE);</p>
+</li>
+<li>
+<p>Ferramentas administrativas, bibliotecas e drivers;</p>
+</li>
+<li>
+<p>Documentação e scripts de instalação/configuração.</p>
+</li>
+</ul>
+<p>Ou seja, o Linux “puro” (o kernel) é apenas a base. Cada distribuição escolhe como empacotar, configurar e distribuir esse kernel e os softwares complementares, criando sistemas com características e propósitos específicos. Por isso existem distribuições voltadas para servidores, desktop, roteadores, dispositivos embarcados, ambientes educacionais, segurança ofensiva e por aí vai.</p>
+<p><code>Por que existem tantas distribuições?</code></p>
+<p>A flexibilidade do modelo open source permite que qualquer organização, empresa ou comunidade crie sua própria distribuição, com foco em determinada finalidade ou filosofia.</p>
+<p>Algumas distribuições são generalistas e voltadas para o público em geral, enquanto outras são altamente especializadas. Essa diversidade pode parecer confusa no início, mas é uma das maiores vantagens do ecossistema Linux: você pode escolher (ou criar) exatamente o sistema que atende às suas necessidades.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-distribuições-linux-mais-comuns-e-qual-usarrecomendaçaões-minhas">6. Distribuições linux mais comuns e qual usar?(Recomendaçaões minhas)<a href="#6-distribuições-linux-mais-comuns-e-qual-usarrecomendaçaões-minhas" class="hash-link" aria-label="Direct link to 6. Distribuições linux mais comuns e qual usar?(Recomendaçaões minhas)" title="Direct link to 6. Distribuições linux mais comuns e qual usar?(Recomendaçaões minhas)">​</a></h2>
+<p>Ao escolher uma distribuição Linux, o ideal é considerar três pontos: o nível de conhecimento prévio, o objetivo de aprendizado (uso geral, segurança, servidores, etc.) e o nível de complexidade que você está disposto a enfrentar.</p>
+<p>Abaixo, organizei as distribuições mais conhecidas e relevantes para quem quer estudar, da mais simples até a mais complexa(Obvio que ainda existem inúmeras outras, mas listei as que achei que seriam mais interessantes).</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="linux-mint">Linux Mint<a href="#linux-mint" class="hash-link" aria-label="Direct link to Linux Mint" title="Direct link to Linux Mint">​</a></h3>
+<p><strong>Nível:</strong> Iniciante</p>
+<p><strong>Base:</strong> Ubuntu/Debian</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Interface semelhante ao Windows, ideal para quem está migrando.</li>
+<li>Fácil de instalar, configurar e usar.</li>
+<li>Excelente para uso diário enquanto aprende Linux.</li>
+<li>Vem com codecs, drivers e programas básicos.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Não é ideal para uso profissional em servidores.</li>
+<li>Pouco usada em ambientes de segurança, então o aprendizado pode ser limitado à parte visual do sistema.</li>
+</ul>
+<p style="text-align:center">Linux Mint</p>
+<div style="text-align:center"><img src="../../img/mint.avif" width="400" height="300"></div>
+<p></p>
+<p>Ótima porta de entrada para quem quer começar sem susto e tem medo de Terminal.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ubuntu-desktop-e-server">Ubuntu (Desktop e Server)<a href="#ubuntu-desktop-e-server" class="hash-link" aria-label="Direct link to Ubuntu (Desktop e Server)" title="Direct link to Ubuntu (Desktop e Server)">​</a></h3>
+<p><strong>Nível:</strong> Iniciante a intermediário</p>
+<p><strong>Base:</strong> Debian</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Grande comunidade e farta documentação.</li>
+<li>Muito usado em servidores, cloud e desenvolvimento.</li>
+<li>Suporte da Canonical, inclusive versões LTS com 5 anos de suporte.</li>
+<li>Permite aprendizado real da estrutura do Linux.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Algumas customizações gráficas podem esconder o funcionamento interno.</li>
+<li>O uso de Snap packages pode confundir o gerenciamento de software.</li>
+</ul>
+<p style="text-align:center">Ubuntu</p>
+<div style="text-align:center"><img src="../../img/ubuntu.jpg" width="400" height="300"></div>
+<p></p>
+<p>Recomendado como primeira distro séria para aprender Linux e administração de sistemas.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="manjaro">Manjaro<a href="#manjaro" class="hash-link" aria-label="Direct link to Manjaro" title="Direct link to Manjaro">​</a></h3>
+<p><strong>Nível:</strong> Intermediário</p>
+<p><strong>Base:</strong> Arch Linux</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Interface moderna e bem polida.</li>
+<li>Base Arch com gerenciamento simplificado.</li>
+<li>AUR (repositório do Arch) disponível com milhares de pacotes.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Pode quebrar com atualizações mal feitas.</li>
+<li>Apesar de amigável, exige mais atenção do que Ubuntu/Debian.</li>
+</ul>
+<p style="text-align:center">Manjaro</p>
+<div style="text-align:center"><img src="../../img/Manjaro.png"></div>
+<p></p>
+<p>Para quem quer um sistema moderno, rolling release, e começar a conhecer a filosofia Arch sem mergulhar de vez.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="debian">Debian<a href="#debian" class="hash-link" aria-label="Direct link to Debian" title="Direct link to Debian">​</a></h3>
+<p><strong>Nível:</strong> Intermediário a avançado</p>
+<p><strong>Base:</strong> Própria</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Altíssima estabilidade.</li>
+<li>Base de várias distros (Ubuntu, Kali, etc.).</li>
+<li>Amplo uso em servidores e ambientes corporativos.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Pacotes menos atualizados.</li>
+<li>Configuração inicial mais manual.</li>
+</ul>
+<p style="text-align:center">Debian</p>
+<div style="text-align:center"><img src="../../img/debian.png"></div>
+<p></p>
+<p>Excelente para aprender como o Linux realmente funciona, com estabilidade de servidor.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fedora">Fedora<a href="#fedora" class="hash-link" aria-label="Direct link to Fedora" title="Direct link to Fedora">​</a></h3>
+<p><strong>Nível:</strong> Intermediário a avançado</p>
+<p><strong>Base:</strong> Red Hat</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Sempre com as tecnologias mais recentes.</li>
+<li>Ideal para aprender o ecossistema Red Hat.</li>
+<li>Base para o RHEL (Red Hat Enterprise Linux).</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Pode ser instável em releases mais novas.</li>
+<li>Ciclo de suporte mais curto (cerca de 13 meses).</li>
+</ul>
+<p style="text-align:center">Fedora</p>
+<div style="text-align:center"><img src="../../img/fedora.avif"></div>
+<p></p>
+<p>Bom para quem quer estar na vanguarda e aprender conceitos corporativos modernos.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kali-linux-calma-lá-mr-robot">Kali Linux (Calma lá Mr. Robot)<a href="#kali-linux-calma-lá-mr-robot" class="hash-link" aria-label="Direct link to Kali Linux (Calma lá Mr. Robot)" title="Direct link to Kali Linux (Calma lá Mr. Robot)">​</a></h3>
+<p><strong>Nível:</strong> Intermediário a avançado</p>
+<p><strong>Base:</strong> Debian</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Vem com mais de 600 ferramentas de pentest e análise forense.</li>
+<li>Pronto para testes de invasão, CTFs, OSINT, engenharia reversa.</li>
+<li>Mantido pela Offensive Security.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Não é uma distro para iniciantes. Supõe que você já domina terminal, permissões e rede.</li>
+<li>Fácil de usar superficialmente, difícil de entender profundamente.</li>
+</ul>
+<p style="text-align:center">Kali Linux</p>
+<div style="text-align:center"><img src="../../img/kali.jpg" width="400" height="300"></div>
+<p></p>
+<p>Recomendado para praticar segurança ofensiva após dominar os fundamentos do Linux.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tails">Tails<a href="#tails" class="hash-link" aria-label="Direct link to Tails" title="Direct link to Tails">​</a></h3>
+<p><strong>Nível:</strong> Intermediário a avançado</p>
+<p><strong>Base:</strong> Debian</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Sistema operacional voltado para anonimato e privacidade.</li>
+<li>Roda inteiramente da RAM, sem deixar rastros.</li>
+<li>Vem com Tor, criptografia e ferramentas de segurança.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Não é um sistema para uso geral.</li>
+<li>Muito limitado em personalização.</li>
+<li>Não persistente por padrão (a não ser com pendrive configurado).</li>
+</ul>
+<p style="text-align:center">Tails</p>
+<div style="text-align:center"><img src="../../img/tails.png"></div>
+<p></p>
+<p>Para aprender sobre segurança operacional (OPSEC) e navegação anônima.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="red-hat-enterprise-linux-rhel--centos--almalinux--rocky-linux">Red Hat Enterprise Linux (RHEL) / CentOS / AlmaLinux / Rocky Linux<a href="#red-hat-enterprise-linux-rhel--centos--almalinux--rocky-linux" class="hash-link" aria-label="Direct link to Red Hat Enterprise Linux (RHEL) / CentOS / AlmaLinux / Rocky Linux" title="Direct link to Red Hat Enterprise Linux (RHEL) / CentOS / AlmaLinux / Rocky Linux">​</a></h3>
+<p><strong>Nível:</strong> Avançado / Corporativo</p>
+<p><strong>Base:</strong> Própria (Red Hat)</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Padrão de mercado em empresas, bancos, instituições públicas.</li>
+<li>Sistema robusto, seguro e com suporte comercial.</li>
+<li>Aprendizado compatível com certificações como RHCSA/RHCE.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Instalação e configuração exigem conhecimento.</li>
+<li>Ecossistema mais fechado (especialmente RHEL).</li>
+<li>CentOS tradicional foi descontinuado (agora CentOS Stream).</li>
+</ul>
+<p style="text-align:center">RHEL / derivados</p>
+<div style="text-align:center"><img src="../../img/redhat.jpg"></div>
+<p></p>
+<p>Ideal para quem quer trabalhar com segurança em empresas que usam Linux em data centers e infraestrutura crítica.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="arch-linux">Arch Linux<a href="#arch-linux" class="hash-link" aria-label="Direct link to Arch Linux" title="Direct link to Arch Linux">​</a></h3>
+<p><strong>Nível:</strong> Avançado</p>
+<p><strong>Base:</strong> Própria</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Instalação minimalista e altamente personalizável.</li>
+<li>Filosofia “faça você mesmo”.</li>
+<li>Pacotes extremamente atualizados.</li>
+<li>Enorme aprendizado prático do sistema Linux “por dentro”.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Curva de aprendizado íngreme.</li>
+<li>Qualquer erro na configuração pode impedir o sistema de funcionar.</li>
+<li>Demanda tempo e atenção constante.</li>
+</ul>
+<p style="text-align:center">Arch Linux</p>
+<div style="text-align:center"><img src="../../img/archlinux.jpg" width="400" height="300"></div>
+<p></p>
+<p>Para quem quer entender cada componente do sistema e construir tudo do zero.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gentoo">Gentoo<a href="#gentoo" class="hash-link" aria-label="Direct link to Gentoo" title="Direct link to Gentoo">​</a></h3>
+<p><strong>Nível:</strong> Avançado / Especialista</p>
+<p><strong>Base:</strong> Própria</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Compilação de pacotes personalizada para sua máquina.</li>
+<li>Controle total sobre o sistema, inclusive otimizações de performance e segurança.</li>
+<li>Ideal para estudar kernel, bibliotecas e bootloader em profundidade.</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>Processo de instalação e manutenção extremamente técnico e demorado.</li>
+<li>Pouco produtivo para uso geral ou testes rápidos.</li>
+</ul>
+<p style="text-align:center">Gentoo</p>
+<div style="text-align:center"><img src="../../img/gentoo.jpg"></div>
+<p></p>
+<p>Para aprendizado avançado de Linux, compilação, performance e tuning de sistemas críticos.</p>
+<hr>
+<div class="theme-admonition theme-admonition-caution admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Importante!</div><div class="admonitionContent_BuS1"><p>É muito comum, ao entrar no universo da segurança da informação, que os estudantes se sintam atraídos imediatamente por distribuições como o Kali Linux. Afinal, trata-se de um sistema com aparência profissional, repleto de ferramentas conhecidas e amplamente usado em ambientes de pentest, CTFs e certificações e convenhamos em Séries como Mr.Robot. O problema é que essa escolha, embora pareça lógica à primeira vista, não é a mais eficaz para quem está começando, muito pelo contrário.</p><p>Distribuições como <strong>Kali, Parrot ou até mesmo Arch e Gentoo oferecem um ambiente extremamente personalizável</strong>, mas pressupõem que o usuário já entenda profundamente o funcionamento do Linux. Isso inclui domínio de <strong>terminal, permissões, estrutura de diretórios, gerenciamento de pacotes, redes, serviços, logs e muitos outros conceitos fundamentais.</strong> Sem essa base, o que geralmente acontece é que a pessoa fica limitada a executar ferramentas sem entender o que está fazendo. Você até pode usar, mas convenhamos, não sabe usar direito e provavelmente está despediçando memória ou seu tempo.</p><p>A analogia que gosto de usar é a seguinte: o Kali Linux é uma mala de ferramentas. Imagine dar uma maleta de instrumentos cirúrgicos para alguém que nunca estudou medicina. Essa pessoa pode até abrir a maleta, ligar alguns aparelhos, mas dificilmente vai entender o propósito real de cada item, muito menos usá-los com precisão. Com o Kali, acontece a mesma coisa. <strong>Ter as ferramentas não é o mesmo que saber usar, e saber usar não é o mesmo que entender como e por que elas funcionam.</strong></p><p>Portanto, não recomendo que iniciantes comecem pelo Kali Linux ou outras distribuições voltadas diretamente para segurança ofensiva. Isso não significa que Kali seja ruim (pelo contrário, é uma ferramenta ótima). Mas como qualquer ferramenta, ela deve ser usada no momento certo.</p><p>Minha recomendação é começar com uma distribuição mais estável, previsível e amigável à aprendizagem, como o <strong>Debian, o Ubuntu, Manjaro ou o Fedora.</strong> Essas distribuições permitem que você aprenda de forma progressiva como o Linux funciona: desde o particionamento de disco, permissões, execução de serviços, gerenciamento de pacotes, até scripts e segurança básica. São sistemas usados amplamente em produção, em empresas, servidores e cloud , ou seja, além de fornecerem uma base sólida, também refletem o ambiente real que você encontrará no mercado.</p><p>Só depois de compreender bem o sistema é que faz sentido migrar para distribuições mais especializadas, como o Kali Linux, Parrot OS ou mesmo ambientes minimalistas como Arch e Gentoo. Nesse estágio, você já não estará simplesmente “executando ferramentas”, mas sim controlando o ambiente em que elas operam. E isso faz toda a diferença.</p><p>Você não precisa do Kali para ser um profissional de segurança. Qualquer distribuição pode ser adaptada com as ferramentas certas. Kali é apenas uma conveniência.</p><p><strong>Se você busca se tornar um profissional sólido em segurança da informação, construa a base primeiro.</strong></p></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-como-rodar-o-linux-métodos-para-instalar-testar-ou-usar-sem-apagar-o-windows">7. Como rodar o Linux? Métodos para instalar, testar ou usar sem apagar o Windows<a href="#7-como-rodar-o-linux-métodos-para-instalar-testar-ou-usar-sem-apagar-o-windows" class="hash-link" aria-label="Direct link to 7. Como rodar o Linux? Métodos para instalar, testar ou usar sem apagar o Windows" title="Direct link to 7. Como rodar o Linux? Métodos para instalar, testar ou usar sem apagar o Windows">​</a></h2>
+<p>Aprender Linux não exige necessariamente apagar o Windows do computador. Existem várias formas de experimentar e usar distribuições Linux de forma segura, prática e reversível.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="live-usb-sem-instalação">Live USB (sem instalação)<a href="#live-usb-sem-instalação" class="hash-link" aria-label="Direct link to Live USB (sem instalação)" title="Direct link to Live USB (sem instalação)">​</a></h3>
+<p>Você pode gravar a imagem ISO de uma distro (como Ubuntu, fedora ou Tails) em um pen drive usando ferramentas como Rufus (no Windows) ou Balena Etcher (multi-plataforma).
+Ao iniciar o computador por esse pen drive, o Linux será executado diretamente da memória RAM, sem alterar o sistema instalado, ou seja, quando você remover o pendrive e reinicar o computador você vai ter o seu SO antigo de volta.</p>
+<p>Ideal para testes rápidos ou uso ocasional com segurança (como no caso do Tails).</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gXorVu1_B2A?si=i_8XPxDCS9tJi-t6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<p><em>OBS: No PC do inteli é provável que você tenha que entrar na BIOS e colocar o pendrive como primeira opção manualmente.</em></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="instalação-em-dual-boot">Instalação em dual boot<a href="#instalação-em-dual-boot" class="hash-link" aria-label="Direct link to Instalação em dual boot" title="Direct link to Instalação em dual boot">​</a></h3>
+<p>Nesse modelo, você instala o Linux ao lado do Windows no mesmo disco ou em discos separados.
+Na inicialização, o GRUB (bootloader do Linux) permite escolher qual sistema iniciar.</p>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>
+<p>Mantém o Windows intacto.</p>
+</li>
+<li>
+<p>Permite uso completo do Linux com performance nativa.</p>
+</li>
+</ul>
+<p><strong>Desvantagens:</strong></p>
+<ul>
+<li>
+<p>Requer cuidado ao particionar o disco (risco de apagar dados).</p>
+</li>
+<li>
+<p>Pode exigir ajustes em UEFI/BIOS.</p>
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6D6L9Wml1oY?si=K3tCweXbIJ-EQrn7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="instalação-em-segundo-ssd-ou-hd">Instalação em segundo SSD ou HD<a href="#instalação-em-segundo-ssd-ou-hd" class="hash-link" aria-label="Direct link to Instalação em segundo SSD ou HD" title="Direct link to Instalação em segundo SSD ou HD">​</a></h3>
+<p>Se você tiver dois discos físicos no computador, pode instalar o Linux em um disco dedicado.
+Isso simplifica o gerenciamento dos sistemas e isola fisicamente os ambientes.</p>
+<p>É a melhor opção se você quer evitar qualquer risco ao sistema principal, especialmente em notebooks com suporte a dois SSDs.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qmykhEs3akw?si=BG-CzzoFW1P7BgZy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="máquinas-virtuais-virtualbox-vmware">Máquinas virtuais (VirtualBox, VMware)<a href="#máquinas-virtuais-virtualbox-vmware" class="hash-link" aria-label="Direct link to Máquinas virtuais (VirtualBox, VMware)" title="Direct link to Máquinas virtuais (VirtualBox, VMware)">​</a></h3>
+<p>Com softwares como VirtualBox ou VMware Workstation, é possível criar uma máquina virtual e rodar Linux dentro do Windows.</p>
+<p><strong>Ideal para:</strong></p>
+<ul>
+<li>
+<p>Estudo de comandos, scripts, permissões.</p>
+</li>
+<li>
+<p>Teste de ferramentas e ambientes de rede simulada.</p>
+</li>
+<li>
+<p>Uso paralelo com ferramentas do Windows.</p>
+</li>
+</ul>
+<p><strong>Desvantagem:</strong></p>
+<ul>
+<li>
+<p>Performance reduzida.</p>
+</li>
+<li>
+<p>Acesso limitado a dispositivos físicos e aceleração gráfica.</p>
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKAkOxSi4Cs?si=rAo0jVUi0rZgEH1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="aprofundamento">Aprofundamento<a href="#aprofundamento" class="hash-link" aria-label="Direct link to Aprofundamento" title="Direct link to Aprofundamento">​</a></h2>
+<p>Agora que você tem uma noção um pouco melhor sobre o que é o Linux, nem tudo são flores e é claro que você vai ter que aprender na prática a usar esse SO, leia a última sessão e instale o SO que achar ser melhor, se você nunca mexeu em um recomendo usar <strong>Ubuntu, Debian, Fedora ou Manjaro</strong>. Caso não queira trocar sozinho o IT Bar troca para você para o Ubuntu se você pedir para eles também.</p>
+<p>Enfim, vou deixar alguns links para vocês treinarem. Não adianta só estudar a teoria do sistema, tem que realmente entrar na prática, porque tudo que ensinei para vocês aqui é teoria, que no final só é útil se você pratica, então, deixei alguns mini cursos para vocês aprenderem comandos do básico ao intermediário, alguns sites para treinar na prática e um livro para usar de material complementar, ao invés e usar GPT recomendo que dê uma olhada nesse livro para dúvidas envolvendo comandos.</p>
+<p><strong>Todo material abaixo é Gratuito!</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cursos">Cursos<a href="#cursos" class="hash-link" aria-label="Direct link to Cursos" title="Direct link to Cursos">​</a></h3>
+<p>Cursos do HTB, tem bastante material escrito e exercícios para vocês aprofundarem o que ensinei acima e mais, inclusive deixei um mini curso de bashscript para vocês aprenderem a criar scripts em bash(Sim isso é possível). O HTB também tem alguns laboratórios práticos dentro dos cursos deeles</p>
+<p><a href="https://academy.hackthebox.com/module/details/18" target="_blank" rel="noopener noreferrer">Linux HTB 1</a></p>
+<p><a href="https://academy.hackthebox.com/module/details/21" target="_blank" rel="noopener noreferrer">Linux BashScript</a></p>
+<p><a href="https://academy.hackthebox.com/module/details/31" target="_blank" rel="noopener noreferrer">Linux HTB 2</a></p>
+<p><a href="https://academy.hackthebox.com/module/details/51" target="_blank" rel="noopener noreferrer">Linux HTB 3</a></p>
+<hr>
+<p>Inclusive, se você já está com Ubuntu:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epiyExCyb2s?si=mIb1Kx9vZpJDmlTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sites-práticos">Sites práticos<a href="#sites-práticos" class="hash-link" aria-label="Direct link to Sites práticos" title="Direct link to Sites práticos">​</a></h3>
+<p>Esse site tem alguns módulos para você ir do básico até o intermediário treinando no próprio site deles e com um material leve:  <a href="https://linuxjourney.com/" target="_blank" rel="noopener noreferrer">https://linuxjourney.com/</a></p>
+<p>Para aprofundar, recomendo que joguem esse jogo, é um jogo para aprender na prática muitos comandos linux e algumas informações extras, ele foi pensado para quem nunca mexeu, mas a partir de certo ponto ele vai ficando bem complexo. Dito isso, ótimo para aprender progressivamente: <a href="https://overthewire.org/wargames/" target="_blank" rel="noopener noreferrer">https://overthewire.org/wargames/</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="livro-didáticos">Livro Didáticos<a href="#livro-didáticos" class="hash-link" aria-label="Direct link to Livro Didáticos" title="Direct link to Livro Didáticos">​</a></h3>
+<p>Esse livro é o material didádico para uma certificação internacional de Linux, ele é bem completo, então recomendo usar de material complementar e de aprofundamento.</p>
+<p>Baixe o LPI Linux Essentials:  <a href="https://learning.lpi.org/pt/learning-materials/learning-materials/" target="_blank" rel="noopener noreferrer">https://learning.lpi.org/pt/learning-materials/learning-materials/</a></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Sistemas-Operacionais/linux.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/material/Sistemas-Operacionais/windowns"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Windows</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-introdução" class="table-of-contents__link toc-highlight">1. Introdução</a></li><li><a href="#2-estrutura" class="table-of-contents__link toc-highlight">2. Estrutura</a><ul><li><a href="#21-kernel" class="table-of-contents__link toc-highlight">2.1 Kernel</a></li><li><a href="#22-espaço-de-usuário-user-space" class="table-of-contents__link toc-highlight">2.2 Espaço de Usuário (User Space)</a></li><li><a href="#23-shell" class="table-of-contents__link toc-highlight">2.3 Shell</a></li><li><a href="#24-sistema-de-arquivos" class="table-of-contents__link toc-highlight">2.4 Sistema de Arquivos</a></li></ul></li><li><a href="#3-permissões" class="table-of-contents__link toc-highlight">3. Permissões</a></li><li><a href="#4-por-que-o-linux-é-central-em-segurança-da-informação" class="table-of-contents__link toc-highlight">4. Por que o Linux é central em segurança da informação?</a></li><li><a href="#5-o-que-são-distribuições-linux" class="table-of-contents__link toc-highlight">5. O que são distribuições linux?</a></li><li><a href="#6-distribuições-linux-mais-comuns-e-qual-usarrecomendaçaões-minhas" class="table-of-contents__link toc-highlight">6. Distribuições linux mais comuns e qual usar?(Recomendaçaões minhas)</a><ul><li><a href="#linux-mint" class="table-of-contents__link toc-highlight">Linux Mint</a></li><li><a href="#ubuntu-desktop-e-server" class="table-of-contents__link toc-highlight">Ubuntu (Desktop e Server)</a></li><li><a href="#manjaro" class="table-of-contents__link toc-highlight">Manjaro</a></li><li><a href="#debian" class="table-of-contents__link toc-highlight">Debian</a></li><li><a href="#fedora" class="table-of-contents__link toc-highlight">Fedora</a></li><li><a href="#kali-linux-calma-lá-mr-robot" class="table-of-contents__link toc-highlight">Kali Linux (Calma lá Mr. Robot)</a></li><li><a href="#tails" class="table-of-contents__link toc-highlight">Tails</a></li><li><a href="#red-hat-enterprise-linux-rhel--centos--almalinux--rocky-linux" class="table-of-contents__link toc-highlight">Red Hat Enterprise Linux (RHEL) / CentOS / AlmaLinux / Rocky Linux</a></li><li><a href="#arch-linux" class="table-of-contents__link toc-highlight">Arch Linux</a></li><li><a href="#gentoo" class="table-of-contents__link toc-highlight">Gentoo</a></li></ul></li><li><a href="#7-como-rodar-o-linux-métodos-para-instalar-testar-ou-usar-sem-apagar-o-windows" class="table-of-contents__link toc-highlight">7. Como rodar o Linux? Métodos para instalar, testar ou usar sem apagar o Windows</a><ul><li><a href="#live-usb-sem-instalação" class="table-of-contents__link toc-highlight">Live USB (sem instalação)</a></li><li><a href="#instalação-em-dual-boot" class="table-of-contents__link toc-highlight">Instalação em dual boot</a></li><li><a href="#instalação-em-segundo-ssd-ou-hd" class="table-of-contents__link toc-highlight">Instalação em segundo SSD ou HD</a></li><li><a href="#máquinas-virtuais-virtualbox-vmware" class="table-of-contents__link toc-highlight">Máquinas virtuais (VirtualBox, VMware)</a></li></ul></li><li><a href="#aprofundamento" class="table-of-contents__link toc-highlight">Aprofundamento</a><ul><li><a href="#cursos" class="table-of-contents__link toc-highlight">Cursos</a></li><li><a href="#sites-práticos" class="table-of-contents__link toc-highlight">Sites práticos</a></li><li><a href="#livro-didáticos" class="table-of-contents__link toc-highlight">Livro Didáticos</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/material/">Material</a></li></ul></div><div class="col footer__col"><div class="footer__title">Contatos</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/yeGStJzP" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Repositórios</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/Ech0S3c" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

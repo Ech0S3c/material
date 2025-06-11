@@ -1,0 +1,28 @@
+{
+  "id": "Redes/Fundamentos/Modeloosi",
+  "title": "Tipos de rede, Modelos e Endereçamento",
+  "description": "Antes de falarmos sobre ataques, firewalls, exploits e todo o universo maravilhoso da Cybersecurity, a gente precisa entender o “chão” onde tudo acontece: as redes.",
+  "source": "@site/docs/Redes/Fundamentos/Modeloosi.md",
+  "sourceDirName": "Redes/Fundamentos",
+  "slug": "/Redes/Fundamentos/Modeloosi",
+  "permalink": "/material/Redes/Fundamentos/Modeloosi",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Redes/Fundamentos/Modeloosi.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Tipos de rede, Modelos e Endereçamento",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introdução",
+    "permalink": "/material/Redes/Fundamentos/introcucao"
+  },
+  "next": {
+    "title": "Camada 1 - Física",
+    "permalink": "/material/Redes/Camada1/"
+  }
+}

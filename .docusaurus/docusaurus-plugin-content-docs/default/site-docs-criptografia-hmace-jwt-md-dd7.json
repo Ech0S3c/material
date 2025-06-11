@@ -1,0 +1,24 @@
+{
+  "id": "Criptografia/hmaceJWT",
+  "title": "hmaceJWT",
+  "description": "HMAC e JWT — Quando assinar é mais importante que esconder",
+  "source": "@site/docs/Criptografia/hmaceJWT.md",
+  "sourceDirName": "Criptografia",
+  "slug": "/Criptografia/hmaceJWT",
+  "permalink": "/material/Criptografia/hmaceJWT",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Criptografia/hmaceJWT.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SHA",
+    "permalink": "/material/Criptografia/SHA"
+  },
+  "next": {
+    "title": "Segurança Pessoal",
+    "permalink": "/material/Segurança Pessoal/"
+  }
+}
