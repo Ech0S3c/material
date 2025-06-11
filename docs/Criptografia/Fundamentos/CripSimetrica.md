@@ -25,7 +25,7 @@ Além disso, como os avanços na inteligência artificial (IA) e na computação
 <p style={{textAlign: 'center'}}> Diagrama Criptografia Simétrica</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../img/criptografiaassimetrica.png" />
+    <img src="../../static/img/criptografiaassimetrica.png" />
 </div>
 <p></p>
 
@@ -104,7 +104,7 @@ Matematicamente, o processo é definido por duas funções:
 <p style={{textAlign: 'center'}}> Funções Criptografia Simétrica</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../img/funcaocripsimetrica.png" style = {{width: 700}} />
+    <img src="../../img/funcaocripsimetrica.png" style = {{width: 700}} />
 </div>
 <p></p>
 

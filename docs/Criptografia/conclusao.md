@@ -26,7 +26,7 @@ Boa sorte nos estudos!
 <iframe
   width="100%"
   height="400"
-  src="https://youtu.be/CcU5Kc_FN_4"
+  src="https://www.youtube.com/embed/CcU5Kc_FN_4?si=ylDYjRIQnutVQhu_"
   title="Criptografia com fábio akita"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -37,13 +37,14 @@ link: https://youtu.be/CcU5Kc_FN_4
 <iframe
   width="100%"
   height="400"
-  src="https://www.youtube.com/watch?v=HCHqtpipwu4"
+  src="https://www.youtube.com/embed/HCHqtpipwu4?si=XeDi_qfZ93XQwVTA"
   title="Criptografia com fábio akita, parte 2"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
 link: https://www.youtube.com/watch?v=HCHqtpipwu4
+
 ### Cursos
 
 Curso de Stanford Sobre criptografia

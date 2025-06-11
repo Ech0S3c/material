@@ -34,7 +34,7 @@ Pense no processo como a uma caixa de correio que está trancada: qualquer pesso
 <p style={{textAlign: 'center'}}> Diagrama Criptografia Assimétrica</p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../img/diagramacripassimetrica.png" />
+    <img src="../../static/img/diagramacripassimetrica.png" />
 </div>
 <p></p>
 

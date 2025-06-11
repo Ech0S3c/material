@@ -5,7 +5,7 @@ sidebar_position: 4
 
 import Admonition from '@theme/Admonition';
 
-# Ataques à criptogradia
+# Ataques à criptografia
 
 É aquilo né você pode ter escolhido o algoritmo certo, configurado as chaves direito, seguido todas as boas práticas e mesmo assim... boom. Alguém que sabe o que está fazendo quebrou sua segurança. Por quê? Porque criptografia não existe no vácuo. Ela depende de implementações, contextos, usuários, e — surpresa — todos esses fatores são atacáveis.
 

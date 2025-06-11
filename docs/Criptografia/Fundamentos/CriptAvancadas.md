@@ -42,7 +42,7 @@ Por exemplo, suponha que uma empresa envie dados super sensíveis a um provedor 
 <p style={{textAlign: 'center'}}> Diagramas homomórfica </p>
 
 <div style={{textAlign: 'center'}}>
-    <img src="../../img/criptografiahomomorfica.jpg" />
+    <img src="../../static/img/criptografiahomomorfica.jpg" />
 </div>
 <p></p>
 
