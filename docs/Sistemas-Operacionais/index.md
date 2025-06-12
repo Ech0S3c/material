@@ -21,6 +21,12 @@ Opa! se já sabe o que é um kernel está no caminho certo.
 
 Mas para quem não sabe: **O Kernel é o núcleo central do sistema operacional**. Ele é o componente que realmente interage diretamente com o hardware. Pode-se dizer que o kernel é o "coração" do sistema operacional — o intermediário direto entre o hardware e o restante do software.
 
+---
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/C6qMnRDKOBc?si=fsNBnyBSDq_QpklR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+
 Em resumo:
 
 - O Sistema Operacional é o todo: **kernel + utilitários + bibliotecas + interfaces.**
@@ -62,6 +68,15 @@ Um sistema operacional moderno é dividido em duas grandes áreas: o kernel spac
 - Interface gráfica ou terminal
 
 - Aplicativos (navegadores, editores de texto, etc.)
+
+---
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/3hYy76Jc5u8?si=_T5fPyF3fo9afd9T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/KWtHeE4wpac?si=4etgyxH3Jok8gVx9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
 
 <Admonition type="caution" title="Importante "> 
 só o kernel tem acesso total ao hardware. Programas comuns não podem mexer diretamente no disco, na memória ou na CPU — e isso é ótimo. A ideia é que, se algo der errado, o estrago seja contido.
@@ -123,18 +138,7 @@ Um bom profissional de segurança sabe como proteger um sistema de dentro pra fo
 
 ## Conclusão
 
----
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/C6qMnRDKOBc?si=fsNBnyBSDq_QpklR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
----
-
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/3hYy76Jc5u8?si=_T5fPyF3fo9afd9T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
-
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/KWtHeE4wpac?si=4etgyxH3Jok8gVx9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
 Sistemas operacionais são muito mais do que “aquele fundo de tela” onde abrimos nossos programas. Eles são a infraestrutura base da computação moderna e o ponto central da segurança digital.
 
 Compreender o que é um sistema operacional, como ele funciona internamente e o papel do kernel, é o primeiro passo para dominar áreas como:
