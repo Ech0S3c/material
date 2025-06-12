@@ -136,10 +136,8 @@ Mas sim: como qualquer sistema de chave pública tradicional, a ECC também ser�
 
 ---
 ## Conclusão
-Curvas elípticas são um exemplo de como a matemática pode ser elegante e brutalmente eficaz ao mesmo tempo.
-São a prova de que tamanho não é documento — pelo menos quando o assunto é chave criptográfica.
+Curvas elípticas são um exemplo de como a matemática pode ser eficaz.
+São a prova de que tamanho não é documento, pelo menos quando o assunto é chave criptográfica.
 
-Você não precisa de megabytes de chave para ter segurança. Precisa da curva certa, da implementação certa e da mentalidade certa.
-
-Porque quem domina ECC não só economiza bits — economiza problemas.
+Porque quem domina ECC não só economiza bits,  economiza problemas.
 

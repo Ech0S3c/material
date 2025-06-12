@@ -123,6 +123,18 @@ Um bom profissional de segurança sabe como proteger um sistema de dentro pra fo
 
 ## Conclusão
 
+---
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/C6qMnRDKOBc?si=fsNBnyBSDq_QpklR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/3hYy76Jc5u8?si=_T5fPyF3fo9afd9T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/KWtHeE4wpac?si=4etgyxH3Jok8gVx9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
 Sistemas operacionais são muito mais do que “aquele fundo de tela” onde abrimos nossos programas. Eles são a infraestrutura base da computação moderna e o ponto central da segurança digital.
 
 Compreender o que é um sistema operacional, como ele funciona internamente e o papel do kernel, é o primeiro passo para dominar áreas como:
