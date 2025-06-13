@@ -23,7 +23,12 @@ import Admonition from '@theme/Admonition';
     <img src="../../img/linus.png"  />
 </div>
 <p></p>
+<Admonition type="tips" title="OPCIONAL"> 
 
+Se quiser saber um pouco sobre a história, recomendo esse documentário:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Z3f-M43DiD4?si=9O-2y7Vw-48OlBpN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</Admonition>
 
 ## 2. Estrutura
 
